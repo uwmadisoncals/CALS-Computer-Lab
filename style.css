@@ -18,7 +18,7 @@
 	text-align: center;
 }
 .info h3, .info h4 {
-	font-family:"Verlag-Black";
+	font-family:"Verlag-Black", Verlag, Helvetica, sans-serif!important;
     color:black;
 }
 .info h4 {
@@ -26,7 +26,7 @@
     color: #5A5A5A;
 }
 .info ol {
- 	margin:10px -5px 0 20px!important; 
+ 	margin:10px -1px 0 20px!important; 
  	list-style:decimal outside; 
     text-align:left;  
 }
@@ -34,6 +34,9 @@
  	line-height:1.1em;
     padding: 4px 0;
 }
-.lineSidebar .sidebar_menu{
- 	padding-top:0;
+.page-widget-sidebar {
+    padding-top: 0em;
+}
+.info ol {
+ 	margin:1em .5em 0 2.5em !important;
 }
