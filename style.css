@@ -14,5 +14,26 @@
 
 @import url("../madisonwp2015/style.css");
 
-body {
+.info {
+	text-align: center;
+}
+.info h3, .info h4 {
+	font-family:"Verlag-Black";
+    color:black;
+}
+.info h4 {
+    padding: 3px 0 6px;
+    color: #5A5A5A;
+}
+.info ol {
+ 	margin:10px -5px 0 20px!important; 
+ 	list-style:decimal outside; 
+    text-align:left;  
+}
+.info li {
+ 	line-height:1.1em;
+    padding: 4px 0;
+}
+.lineSidebar .sidebar_menu{
+ 	padding-top:0;
 }
