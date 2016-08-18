@@ -1,3 +1,5 @@
+
+
 /*
  Theme Name:   CALS Lab Child
  Theme URI:		
@@ -14,11 +16,35 @@
 
 @import url("../madisonwp2015/style.css");
 
+/* GENERAL */
+.pagePadding {
+    padding: 0 2em!important;
+}
+.home .entry-header {
+ 	display:none;   
+}
+.home .site-content-inner .site-main {
+    padding-top: 0em;
+}
+
+
+/* SIDEBAR */
+
+/* SIDEBAR SPACING */
+.page-widget-sidebar {
+    padding-top: 0em;
+}
+/* SIDEBAR MENU */
+.widget .menu .menu-item a {
+ 	padding-left:2em;
+}
+
+/* SIDEBAR TEXT WIDGETS */
 .info {
 	text-align: center;
 }
 .info h3, .info h4 {
-	font-family:"Verlag-Black", Verlag, Helvetica, sans-serif!important;
+	font-family:"Verlag-Black"!important, Verlag, Helvetica, sans-serif!important;
     color:black;
 }
 .info h4 {
@@ -26,7 +52,7 @@
     color: #5A5A5A;
 }
 .info ol {
- 	margin:10px -1px 0 20px!important; 
+ 	margin:.5em 0 0 3em !important;
  	list-style:decimal outside; 
     text-align:left;  
 }
@@ -34,9 +60,34 @@
  	line-height:1.1em;
     padding: 4px 0;
 }
-.page-widget-sidebar {
-    padding-top: 0em;
+.info p {
+ 	font-size:1.1em;   
 }
-.info ol {
- 	margin:1em .5em 0 2.5em !important;
+
+/* CLASSROOM PAGE */
+
+.classrooms img {
+ 	margin: .4em 1em 0 0;   
+}
+.classrooms h2 {
+ 	margin: 1em 0 .3em;   
+}
+.classrooms h2 ~ p {
+    margin:0;
+}
+
+/* MOBILE MENU */
+.mobileMenu {
+    background: #C2242A;
+    box-shadow: 0 1px 25px rgba(194,36,42,.8);
+}
+.mobileMenu a {
+    color: rgba(255,255,255,.93);   
+}
+.mobileMenu a:hover {
+    color: rgba(255,255,255,1);   
+}
+.mobileMenu h2.mobileTitle {
+ 	color:white;
+    font-weight:bold!important;
 }
