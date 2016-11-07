@@ -2,11 +2,11 @@
 
 /*
  Theme Name:   CALS Lab Child
- Theme URI:		
+ Theme URI:
  Description:  CALS Lab Child Theme of UW-Madison 15
  Author:       Kieran Furey-King
- Author URI:   
- Template:     madisonwp2015
+ Author URI:
+ Template:     uw-madison-wp-2015
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,18 +14,18 @@
  Text Domain:  twenty-fifteen-child
 */
 
-@import url("../madisonwp2015/style.css");
+@import url("../uw-madison-wp-2015/style.css");
 
 /* GENERAL */
-.pagePadding {
+/*.pagePadding {
     padding: 0 2em!important;
-}
+}*/
 .home .entry-header {
- 	display:none;   
+ 	display:none;
 }
-.home .site-content-inner .site-main {
+/*.home .site-content-inner .site-main {
     padding-top: 0em;
-}
+}*/
 
 
 /* SIDEBAR */
@@ -53,24 +53,24 @@
 }
 .info ol {
  	margin:.5em 0 0 3em !important;
- 	list-style:decimal outside; 
-    text-align:left;  
+ 	list-style:decimal outside;
+    text-align:left;
 }
 .info li {
  	line-height:1.1em;
     padding: 4px 0;
 }
 .info p {
- 	font-size:1.1em;   
+ 	font-size:1.1em;
 }
 
 /* CLASSROOM PAGE */
 
 .classrooms img {
- 	margin: .4em 1em 0 0;   
+ 	margin: .4em 1em 0 0;
 }
 .classrooms h2 {
- 	margin: 1em 0 .3em;   
+ 	margin: 1em 0 .3em;
 }
 .classrooms h2 ~ p {
     margin:0;
@@ -82,10 +82,10 @@
     box-shadow: 0 1px 25px rgba(194,36,42,.8);
 }
 .mobileMenu a {
-    color: rgba(255,255,255,.93);   
+    color: rgba(255,255,255,.93);
 }
 .mobileMenu a:hover {
-    color: rgba(255,255,255,1);   
+    color: rgba(255,255,255,1);
 }
 .mobileMenu h2.mobileTitle {
  	color:white;
