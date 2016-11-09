@@ -32,7 +32,7 @@
 
 /* SIDEBAR SPACING */
 .page-widget-sidebar {
-    padding-top: 0em;
+  padding-top: 0.5em !important;
 }
 /* SIDEBAR MENU */
 .widget .menu .menu-item a {
@@ -61,7 +61,7 @@
     padding: 4px 0;
 }
 .verlag-option .info p {
- 	font-size:1.1em;
+ 	font-size:1em;
 }
 
 /* CLASSROOM PAGE */
