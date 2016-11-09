@@ -17,9 +17,9 @@
 @import url("../uw-madison-wp-2015/style.css");
 
 /* GENERAL */
-/*.pagePadding {
-    padding: 0 2em!important;
-}*/
+.pagePadding {
+    padding: 0.5em 2em!important;
+}
 .home .entry-header {
  	display:none;
 }
@@ -60,7 +60,7 @@
  	line-height:1.1em;
     padding: 4px 0;
 }
-.info p {
+.verlag-option .info p {
  	font-size:1.1em;
 }
 
