@@ -27,6 +27,37 @@
     padding-top: 0em;
 }*/
 
+/* TOP RIGHT HOURS */
+
+#top-right-hours {
+  position: absolute;
+  right:0;
+  top:0;
+  margin:-10px;
+  margin-right:150px;
+
+  background: white;
+
+  border:2px solid #2f2f2f;
+
+}
+#top-right-hours div {
+  padding:2px 8px;
+  text-align: center;
+}
+#top-right-hours h4 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+#top-right-hours .textwidget {
+  font-size: .9em;
+  line-height: 1.2em;
+}
+
+.top-right-area.widget-area {
+  padding-left:0!important;
+  width:auto!important;
+}
 
 /* SIDEBAR */
 
