@@ -21,7 +21,7 @@ function calslabs_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'Top Right Hours',
 		'id'            => 'top_right_area',
-		'before_widget' => '<div id="">',
+		'before_widget' => '<div>',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h4>',
 		'after_title'   => '</h4>',
