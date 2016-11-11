@@ -3907,19 +3907,18 @@ function uw_madison_wp_2015_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
-
-// New Widget Area
-// Location: at the top of the gallery page
+  // New Widget Area
+  // Location: at the top of the gallery page
   register_sidebar(array(
-     'name' => __('Top Corner Area', 'uw-madison-wp-2015'),
+    'name' => __('Top Corner Area', 'uw-madison-wp-2015'),
      'id' => 'top-corner-widgets',
      'description' => __('Top Corner Widget Area', 'uw-madison-wp-2015'),
      'before_widget' => '<div id="%1$s" class="top-corner-hours">',
      'after_widget' => '</div>',
      'before_title' => '<h4>',
      'after_title' => '</h4>',
-  ) );
-}
+  ));
+
 }
 add_action( 'widgets_init', 'uw_madison_wp_2015_widgets_init' );
 
