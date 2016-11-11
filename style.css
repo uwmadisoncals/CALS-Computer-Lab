@@ -33,12 +33,12 @@
   position: absolute;
   right:0;
   top:0;
-  margin:-10px;
+  margin:-5px;
   margin-right:150px;
 
-  background: white;
+  background: #F7F5E8;
 
-  border:2px solid #2f2f2f;
+  border:2px solid #E7D9C1;
 
 }
 #top-right-hours div {
