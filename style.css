@@ -23,9 +23,25 @@
 .home .entry-header {
  	display:none;
 }
+/*.featureHeader {
+  min-height: 0 !important;
+}*/
 /*.home .site-content-inner .site-main {
     padding-top: 0em;
 }*/
+
+/* SITE HEADER */
+
+.site-header .mainTitle {
+  font-size:2em !important;
+}
+/*.site-header .logo-search-container.noimage {
+  height:90px !important;
+}*/
+.site-header .logo-search-container.noimage img {
+  width: 50px !important;
+}
+
 
 /* TOP RIGHT HOURS */
 
