@@ -46,17 +46,9 @@
 /* TOP RIGHT HOURS */
 
 #top-right-hours {
-  position: absolute;
-  right:0;
-  top:0;
-  margin:-5px;
-  margin-right:150px;
-
-  background: #F7F5E8;
-
-  border:2px solid #E7D9C1;
 
 }
+/*
 #top-right-hours div {
   padding:2px 8px;
   text-align: center;
@@ -73,7 +65,7 @@
 .top-right-area.widget-area {
   padding-left:0!important;
   width:auto!important;
-}
+}*/
 
 /* SIDEBAR */
 

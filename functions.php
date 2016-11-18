@@ -23,8 +23,8 @@ function calslabs_widgets_init() {
 		'id'            => 'top_right_area',
 		'before_widget' => '<div>',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h4>',
-		'after_title'   => '</h4>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
 	) );
 
 }
