@@ -138,6 +138,7 @@
     color: rgba(255,255,255,1);
 }
 .mobileMenu h2.mobileTitle {
- 	color:white;
+ 	color:white!important;
     font-weight:bold!important;
+    font-size:1.1em!important;
 }
