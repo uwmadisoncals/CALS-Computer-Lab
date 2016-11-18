@@ -46,7 +46,10 @@
 /* TOP RIGHT HOURS */
 
 #top-right-hours {
-
+  text-align:center;
+}
+#top-right-hours p {
+  font-size: 1.1em;
 }
 /*
 #top-right-hours div {

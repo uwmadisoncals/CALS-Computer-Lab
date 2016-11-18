@@ -646,7 +646,7 @@ get_header(); ?>
 				if ( is_active_sidebar( 'top_right_area' ) ) : ?>
 						<div id="top-right-hours" class="top-right-area sidebar_menu" role="complementary">
 								<?php dynamic_sidebar( 'top_right_area' ); ?>
-							</div><!-- #top right area -->
+						</div><!-- #top right area -->
 				<?php endif;
 
 					if ( !is_home() ) {
