@@ -47,9 +47,17 @@
 
 #top-right-hours {
   text-align:center;
+  border: 2px lightgrey solid;
+  margin-bottom: 1em;
+  padding-left: 0;
 }
 #top-right-hours p {
   font-size: 1.1em;
+  margin:.5em 0 1em;
+}
+#top-right-hours h2 {
+  margin-top:1em;
+  text-decoration: underline;
 }
 /*
 #top-right-hours div {
