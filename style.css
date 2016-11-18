@@ -20,7 +20,7 @@
 .pagePadding {
     padding: 0.5em 2em!important;
 }
-.home .entry-header {
+.home.page .entry-header {
  	display:none;
 }
 /*.featureHeader {
@@ -38,9 +38,9 @@
 /*.site-header .logo-search-container.noimage {
   height:90px !important;
 }*/
-.site-header .logo-search-container.noimage img {
+/*.site-header .logo-search-container.noimage img {
   width: 50px !important;
-}
+}*/
 
 
 /* TOP RIGHT HOURS */
