@@ -6,7 +6,7 @@
  Description:  CALS Lab Child Theme of UW-Madison 15
  Author:       Kieran Furey-King
  Author URI:
- Template:     uw-madison-wp-2015
+ Template:     madisonwp2015
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,7 +14,7 @@
  Text Domain:  twenty-fifteen-child
 */
 
-@import url("../uw-madison-wp-2015/style.css");
+@import url("../madisonwp2015/style.css");
 
 /* GENERAL */
 .pagePadding {
