@@ -19,16 +19,18 @@
 
 get_header(); ?>
 
+
+<div class="site-content-inner">
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main cals_teams archive_team" role="main">
 		<?php
 
 			include( WP_PLUGIN_DIR . '/cals_teams/includes/data/cals_teams_fields.php' ); //include Metabox and Metabox field group data
 
-		
+
 		$mbox_fields = $mbox['fields'];//Meta data for field groups
 		//logit($mbox_fields,'$mbox_fields');
-		
+
 
 		$args = array('post_type'=>'team',
 					  'orderby'=>'menu_order',
@@ -37,7 +39,7 @@ get_header(); ?>
 		$cals_teams_query = new WP_Query($args);//Instantiate New WP Query Object
 		//logit($cals_teams_query,'$cals_teams_query');
 		//logit($cals_teams_query->post->ID,'$cals_teams_query id: ');
-		
+
 		$cals_teams_obj = new Cals_Teams($mbox); //Instantiate Cals_Teams object
 		//logit($cals_teams_obj,'$cals_teams_obj: ');
 
@@ -52,12 +54,12 @@ get_header(); ?>
 				?>
 				<!--<h1 class="page-title" >Lab Members</h1>-->
 
-				<h1 class="page-title"><?php echo ct_settings_options_get(); ?></h1>
+				<h1 class="entry-title"><?php echo ct_settings_options_get(); ?></h1>
 
 			</header><!-- .page-header -->
 
 			<div class="member-grouping bricklayer">
-			
+
 			<?php
 			// Start the Loop.
 			while ( $cals_teams_query->have_posts() ) : $cals_teams_query->the_post();
@@ -66,7 +68,7 @@ get_header(); ?>
 
 			//logit($id,'$id: ');
 			//logit(get_post_meta($id),'gpmid: ');
-			
+
 				$all_meta = get_post_meta($id);
 				//logit($all_meta,'$all_meta: ');
 
@@ -90,10 +92,10 @@ get_header(); ?>
 					<a href="<?php esc_url( the_permalink() ); ?>">
 					<div class="newImg" style="background: url('<?php echo plugins_url() . '/cals_teams/includes/images/calsteams_placeholder.png' ?>') no-repeat center center; background-size: cover;"></div>
 					</a>
-					
+
 				<?php } ?>
 
-				
+
 
 				<div class="member_info_wrapper">
 
@@ -103,7 +105,7 @@ get_header(); ?>
 					</div>
 
 					<div class="member-body">
-					<?php 
+					<?php
 						if(has_post_thumbnail()) : ?>
 
 
@@ -122,7 +124,7 @@ get_header(); ?>
 									<img class="member-thumbnail" alt="person placeholder image" src="<?php echo plugins_url() . '/cals_teams/includes/images/calsteams_placeholder.png'  ?>" width="150" height="150" />
 								</a>
 							</div>
- -->							
+ -->
 						<?php endif; ?>
 
 						<div class="member-data-wrapper">
@@ -141,10 +143,10 @@ get_header(); ?>
 							</div>
 
 							<?php
-							
+
 						}
-						
-						
+
+
 					}// END foreach
 					?>
 
@@ -155,7 +157,7 @@ get_header(); ?>
 				</div><!-- END .member_info_wrapper  -->
 
 			</div><!-- END .member_wrapper -->
-				
+
 
 				<?php
 
@@ -182,5 +184,6 @@ get_header(); ?>
 
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
+	</div><!-- .site-content-inner -->
 
 <?php get_footer(); ?>

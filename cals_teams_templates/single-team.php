@@ -1,9 +1,6 @@
-<?php 
-//THIS IS A SAMPLE TEMPLATE. To use it follow these directions:
-// 1. Create a Directory in the root level of your theme named exactly 'cals_teams_templates'
-// 2. Copy This Theme into said directory, keep the file name single-team.php
-// 3.
-get_header(); ?>
+<?php get_header(); ?>
+
+<div class="site-content-inner">
 
 <div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -204,5 +201,6 @@ get_header(); ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
+	</div><!-- .site-content-inner -->
 	
 <?php get_footer(); ?>
