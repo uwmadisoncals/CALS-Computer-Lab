@@ -13,9 +13,9 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 function my_custom_javascript() {
-    wp_enqueue_style('myscript', get_stylesheet_directory_uri().'/js/team_edits.js', array('jquery'), '1.0', 'screen, projection');
+  wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/team_edits.js', array ('jquery' ));
 }
-add_filter('child_add_javascripts','my_custom_javascript');
+add_filter('wp_enqueue_scripts','my_custom_javascript');
 
 
 
