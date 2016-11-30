@@ -146,5 +146,8 @@
 /* TEAM PAGE */
 main.cals_teams.archive_team .member-heading-wrapper a.member {
   display:inline-block;
-  margin: 1em 0 .5em !important;
+  margin: 0.5em 0 0.25em !important;
+}
+.cals_teams.archive_team p.description {
+  font-size:1em !important;
 }
