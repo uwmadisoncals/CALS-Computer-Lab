@@ -23,6 +23,8 @@ get_header(); ?>
 <div class="site-content-inner">
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main cals_teams archive_team" role="main">
+			<div class="cf pagePadding">
+
 		<?php
 
 			include( WP_PLUGIN_DIR . '/cals_teams/includes/data/cals_teams_fields.php' ); //include Metabox and Metabox field group data
@@ -47,7 +49,7 @@ get_header(); ?>
 
 		<?php if ( $cals_teams_query->have_posts() ) : ?>
 
-			<header>
+			<header class="entry-header">
 				<?php
 					//the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
@@ -183,7 +185,7 @@ get_header(); ?>
 
 		endif;
 		?>
-
+	</div><!-- cf pagePadding -->
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
 	</div><!-- .site-content-inner -->
