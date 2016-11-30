@@ -76,6 +76,7 @@ get_header(); ?>
 				$first_name = get_post_meta($id, 'calsteams_first_name')[0];
 				$last_name = get_post_meta($id, 'calsteams_last_name')[0];
 				$pro_title = get_post_meta($id, 'calsteams_professional_title')[0];
+				$description = get_post_meta($id, 'calsteamswysiwygdesc')[0];
 				$image_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 				//logit($image_url);
 
@@ -102,6 +103,7 @@ get_header(); ?>
 					<div class="member-heading-wrapper">
 						<a class ="member" href="<?php esc_url(the_permalink()) ?>"><?php echo $name_prefix . ' ' . $first_name . ' ' . $last_name;  ?></a><br/>
 						<span class="protitle"><?php echo $pro_title; ?></span>
+						<span class="description"><?php echo $description; ?></span>
 					</div>
 
 					<div class="member-body">
