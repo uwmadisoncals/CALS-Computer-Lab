@@ -140,3 +140,11 @@
     font-weight:bold!important;
     font-size:1.1em!important;
 }
+
+
+
+/* TEAM PAGE */
+main.cals_teams.archive_team .member-heading-wrapper a.member {
+  display:inline-block;
+  margin: 1em 0 .5em !important;
+}

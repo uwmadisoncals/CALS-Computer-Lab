@@ -103,7 +103,7 @@ get_header(); ?>
 					<div class="member-heading-wrapper">
 						<a class ="member" href="<?php esc_url(the_permalink()) ?>"><?php echo $name_prefix . ' ' . $first_name . ' ' . $last_name;  ?></a><br/>
 						<span class="protitle"><?php echo $pro_title; ?></span>
-						<span class="description"><?php echo $description; ?></span>
+						<p class="description"><?php echo $description; ?></p>
 					</div>
 
 					<div class="member-body">
