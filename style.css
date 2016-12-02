@@ -64,7 +64,7 @@
     opacity: 0;
     transition: .5s;
 }
-.fixedNav.menu-main-container:before {
+.fixedNav .menu-main-container:before {
     opacity:1;
 }
 
