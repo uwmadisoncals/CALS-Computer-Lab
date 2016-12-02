@@ -136,7 +136,7 @@ get_header(); ?>
 					//using foreach
 					foreach ($mbox_fields as $key => $value) {
 						$field_id = $value['id'];//field id name
-						$allowed_fields = array('calsteams_office_location','calsteams_phone','calsteams_email');
+						$allowed_fields = array('calsteams_office_location','calsteams_email','calsteams_phone');
 
 						if(!empty(get_post_meta($id,$field_id)[0]) && in_array($field_id,$allowed_fields) ){
 
