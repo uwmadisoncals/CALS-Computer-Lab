@@ -50,20 +50,21 @@
 	top:0;
 	background:#AA1422!important;
 }
-.main-navigation:before {
+.menu-main-container:before {
     content: " ";
     position: absolute;
     top: 2px;
     bottom: 2px;
-    width: 30px;
+    width: 25px;
+    margin-left: -25px;
     background: url(http://calslab.admin.cals.wisc.edu/wp-content/themes/madisonwp2015/images/cl_logo.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
-    transition:.5s;
+    transition: .5s;
 }
-.fixedNav.main-navigation:before {
+.fixedNav.menu-main-container:before {
     opacity:1;
 }
 
@@ -113,6 +114,9 @@
 /* SIDEBAR MENU */
 .widget .menu .menu-item a {
  	padding-left:2em;
+}
+.sidebar_menu h1, .sidebar_menu.expanded h1 a, .widget-area h1 {
+  font-size:16px;
 }
 
 /* SIDEBAR TEXT WIDGETS */
