@@ -31,7 +31,7 @@
 }
 .mobileNavOn .site-header .noimageLogo .logoImage,
 .site-header .noimageLogo .logoImage {
-  width:auto;
+  width:auto!important;
 }
 .search-youruw .youruw {
   display:none!important;
