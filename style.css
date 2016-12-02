@@ -40,6 +40,13 @@
   background:#AA1422!important;
 }
 
+/* Fixed Navigation */
+
+.fixedNav {
+	position:fixed;
+	top:0;
+	background:#AA1422!important;
+}
 
 
 /* TOP RIGHT HOURS */
