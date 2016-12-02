@@ -29,7 +29,10 @@
 .site-header .mainTitle {
   font-size:2em !important;
 }
-
+.mobileNavOn .site-header .noimageLogo .logoImage,
+.site-header .noimageLogo .logoImage {
+  width:auto;
+}
 .search-youruw .youruw {
   display:none!important;
 }
