@@ -47,7 +47,22 @@
 	top:0;
 	background:#AA1422!important;
 }
-
+.main-navigation:before {
+    content: " ";
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    width: 30px;
+    background: url(http://calslab.admin.cals.wisc.edu/wp-content/themes/madisonwp2015/images/cl_logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition:.5s;
+}
+.fixedNav.main-navigation:before {
+    opacity:1;
+}
 
 /* TOP RIGHT HOURS */
 
