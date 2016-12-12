@@ -74,17 +74,20 @@
   text-align:center;
   border: 2px lightgrey solid;
   margin-bottom: 1em;
-  padding: 1em;
+  padding: 15px 10px;
 }
 #top-right-hours p {
   font-size: 1.1em;
-  margin:.5em 0;
+  margin:0;
   padding:0;
 }
 #top-right-hours h2 {
   margin:0;
   padding:0 0.5em;
   text-decoration: underline;
+}
+#top-right-hours h2:first-of-type {
+  margin-bottom:0.5em;
 }
 /*
 #top-right-hours div {
@@ -117,8 +120,11 @@
 }
 .sidebar_menu h1, .sidebar_menu.expanded h1 a, .widget-area h1 {
   font-size:16px;
+  font-family:"Verlag-Black","Verlag",sans-serif;
 }
-
+.sidebar_menu h1 a .nav_text {
+  font-family: Verlag-Black;
+}
 /* SIDEBAR TEXT WIDGETS */
 .info {
 	text-align: center;
@@ -176,6 +182,11 @@
 
 
 /* TEAM PAGE */
+.archive .verlag-option .entry-header h1 {
+
+}
+
+
 main.cals_teams.archive_team .member-heading-wrapper a.member {
   display:inline-block;
   margin: 0.5em 0 0 0 !important;

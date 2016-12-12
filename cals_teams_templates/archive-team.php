@@ -85,19 +85,11 @@ get_header(); ?>
 			?>
 				<div class="member_wrapper">
 
-				<?php if($image_url){ ?>
-
-					<a href="<?php esc_url( the_permalink() ); ?>">
-					<div class="newImg" style="background: url(<?php echo $image_url ?>) no-repeat center center; background-size: cover;"></div>
-					</a>
-
-				<?php }else{ ?>
-					<a href="<?php esc_url( the_permalink() ); ?>">
-					<div class="newImg" style="background: url('<?php echo plugins_url() . '/cals_teams/includes/images/calsteams_placeholder.png' ?>') no-repeat center center; background-size: cover;"></div>
-					</a>
-
-				<?php } ?>
-
+					<a href="<?php esc_url( the_permalink() ); ?>" style="background: url('<?php if($image_url){
+						echo $image_url;
+					} else {
+						echo plugins_url() . '/cals_teams/includes/images/calsteams_placeholder.png';
+					} ?>') no-repeat center center; background-size: cover;"></a>
 
 
 				<div class="member_info_wrapper">
