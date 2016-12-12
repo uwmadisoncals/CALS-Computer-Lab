@@ -89,7 +89,7 @@ get_header(); ?>
 						echo $image_url;
 					} else {
 						echo plugins_url() . '/cals_teams/includes/images/calsteams_placeholder.png';
-					} ?>') no-repeat center center; background-size: cover;"></a>
+					} ?>') no-repeat center center; background-size: cover; height:300px; display:block;"></a>
 
 
 				<div class="member_info_wrapper">
