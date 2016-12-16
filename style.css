@@ -121,8 +121,11 @@ body #content	.site-content-inner,
   padding-top: 0.5em !important;
 }
 /* SIDEBAR MENU */
-.widget .menu .menu-item a {
- 	padding-left:2em;
+
+.sidebar_menu .menu .menu-item a, .sidebar_menu #nav_explore a span {
+    padding-left: 0;
+    text-transform: Capitalize;
+    font-size: 16px;
 }
 .sidebar_menu h1, .sidebar_menu.expanded h1 a, .widget-area h1 {
   font-size:16px;
