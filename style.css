@@ -23,6 +23,11 @@
 .home.page .entry-header {
  	display:none;
 }
+body #content	.site-content-inner,
+.site-header .main-navigation .site-navigation-container,
+.site-header .logo-search-container {
+    max-width: 900px !important;
+}
 
 /* SITE HEADER */
 
@@ -77,7 +82,7 @@
   padding: 15px 10px;
 }
 #top-right-hours p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin:0;
   padding:0;
 }
@@ -85,6 +90,7 @@
   margin:0;
   padding:0 0.5em;
   text-decoration: underline;
+  font-size:1.2em;
 }
 #top-right-hours h2:first-of-type {
   margin-bottom:0.5em;
