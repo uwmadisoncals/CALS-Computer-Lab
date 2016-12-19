@@ -4,8 +4,6 @@
 
 This site runs Wordpress CMS with the CALS’ “UW-Madison 2015” Theme customized specifically for CALS Lab.
 
-* Site URL: https://calslab.admin.cals.wisc.edu
-* Admin URL: https://calslab.admin.cals.wisc.edu/wp-admin/
 * Site Administrator: Tom Tabone, tom.tabone@wisc.edu
 * CALS IT Contact: Kieran Furey-King, kieran.furey-king@cals.wisc.edu
 * CALS IT Web Support: https://websupport.cals.wisc.edu/helpdesk/WebObjects/Helpdesk.woa
@@ -22,7 +20,7 @@ This site runs Wordpress CMS with the CALS’ “UW-Madison 2015” Theme custom
 	* Team Member Profile
 
 ## How to Log In:
-Navigate to https://calslab.admin.cals.wisc.edu/wp-admin/ and use your NetID. If you are a new user, a login will automatically be created for you. You will land on the Dashboard. 
+Navigate to your website and append **/wp-admin/** to the end, go to this URL and use your NetID. If you are a new user, a login will automatically be created for you. You will land on the Dashboard. 
 
 The sidebar on the left provides access to all functions your login has access to. Mousing over the items will bring up a list of related functions. Note: If there are only icons visible in the sidebar, widen your window.
 
