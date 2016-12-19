@@ -117,9 +117,6 @@ body #content	.site-content-inner,
 /* SIDEBAR */
 
 /* SIDEBAR SPACING */
-.page-widget-sidebar {
-  padding-top: 0.5em !important;
-}
 /* SIDEBAR MENU */
 
 .sidebar_menu .menu .menu-item a, .sidebar_menu #nav_explore a span {
